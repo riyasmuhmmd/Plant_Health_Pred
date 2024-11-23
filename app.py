@@ -7,7 +7,7 @@ data = pd.read_csv("plant_health_data.csv")
 
 
 with open('model.pkl', 'rb') as file:
-    model = pickle.load(file)
+     pickle.load(model,file)
 
 
 with open('preprocessor.pkl', 'rb') as file:
